@@ -1,0 +1,19 @@
+{
+  "name": "cham-trac-nghiem-lkt-mobile",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Chấm Trắc Nghiệm LKT – Android/iOS (Capacitor)",
+  "scripts": {
+    "sync": "npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.10",
+    "@capacitor/core": "^7.6.10",
+    "@capacitor/filesystem": "^7.1.9",
+    "@capacitor/ios": "^7.6.10",
+    "@capacitor/share": "^7.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.6.10"
+  }
+}

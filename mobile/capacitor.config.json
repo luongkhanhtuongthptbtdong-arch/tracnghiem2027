@@ -1,0 +1,7 @@
+{
+  "appId": "vn.lkt.chamtracnghiem",
+  "appName": "Chấm TN LKT",
+  "webDir": "www",
+  "android": { "allowMixedContent": false, "backgroundColor": "#1d3fa8" },
+  "ios": { "contentInset": "never", "backgroundColor": "#1d3fa8" }
+}

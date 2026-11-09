@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Chấm TN LKT</string>
+    <string name="title_activity_main">Chấm TN LKT</string>
+    <string name="package_name">vn.lkt.chamtracnghiem</string>
+    <string name="custom_url_scheme">vn.lkt.chamtracnghiem</string>
+</resources>

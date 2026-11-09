@@ -1,0 +1,63 @@
+{
+  "name": "cham-trac-nghiem-lkt",
+  "productName": "Chấm Trắc Nghiệm LKT",
+  "version": "2.1.0",
+  "description": "Chấm phiếu trắc nghiệm mẫu BGD, QM, TN Maker – Lương Khánh Tường",
+  "author": "Lương Khánh Tường <lktuong@gmail.com>",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never"
+  },
+  "build": {
+    "appId": "vn.lkt.chamtracnghiem",
+    "productName": "Chấm Trắc Nghiệm LKT",
+    "copyright": "© 2026 Lương Khánh Tường – THPT Bình Thạnh Đông",
+    "files": [
+      "main.js",
+      "app/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "icon.ico",
+      "executableName": "ChamTracNghiemLKT"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Chấm Trắc Nghiệm LKT",
+      "artifactName": "ChamTracNghiemLKT-Setup-${version}.exe",
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "language": "1066"
+    },
+    "portable": {
+      "artifactName": "ChamTracNghiemLKT-Portable-${version}.exe"
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "33.4.11",
+    "electron-builder": "25.1.8"
+  }
+}
